@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+}
+
+.retro {
+    font-family: 'IBM Plex Mono';
+    font-weight: 700;
+    text-transform: uppercase;
+
+    background-color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+
+    transition: 
+        transform 50ms, box-shadow 50ms;
+}
+
+.retro:active {
+ transform: translate(00.125rem, 00.125rem);
+ box-shadow: 0.125rem 0.125rem #121212;
+}
+
+.navbar-nav a{
+    display: flex;
+    text-align: center;
+    font-family: 'galaxy';
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.btn-pink:hover {
+    background-color: lightpink;
+    color: white;
+}
+
+  .navbar-nav .nav-link {
+    font-family: "verdana", sans-serif;
+  }
+
+.navbar-brand img {
+    width: 150px;
+    height: auto;
+  }
+  .navbar-brand:hover img {
+    transform: scale(1.2);
+  }
+  .nav-link:hover {
+    color: #931F7A !important;
+  }
+  .text-effect {
+    transition: font-size 0.3s;
+  }
+  .text-effect:hover {
+    font-size: 1.2em;
+  }
+
+  footer {
+    background-color: #ffa0bd;
+  }
+  
+  footer .container {
+    padding-top: 30px; /* Ajusta el valor según la separación deseada */
+  }
+  
+  
+  .section {
+    padding: 20px;
+  }
+  
+  .section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card {
+    width: 48%;
+  }
+
+  @media (max-width: 768px) {
+    .card-container {
+      flex-direction: column;
+    }
+  }
+
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
